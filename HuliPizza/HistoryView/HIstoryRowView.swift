@@ -11,8 +11,18 @@ struct HIstoryRowView: View {
     var body: some View {
         HStack(alignment: .top) {
             Image("1_100w")
-            Text("Chicken Pizza")
-        }
+                .clipShape(Circle())
+                .shadow(radius: 10)
+            Text("Huli Chicken")
+                .font(.title)
+            Spacer()
+        }.overlay (
+            Image(systemName: "chevron.right.square")
+                .font(.title)
+                .foregroundColor(Color("G3"))
+                .padding()
+            ,alignment: .trailing
+        )
     }
 }
 

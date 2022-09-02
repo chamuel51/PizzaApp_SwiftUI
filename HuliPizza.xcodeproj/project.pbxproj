@@ -22,6 +22,7 @@
 		50FD095F28BBF99D00B36787 /* HIstoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD095E28BBF99D00B36787 /* HIstoryRowView.swift */; };
 		50FD096128BBFA3400B36787 /* HistoryPizzaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD096028BBFA3400B36787 /* HistoryPizzaListView.swift */; };
 		50FD096328BC1D5B00B36787 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD096228BC1D5B00B36787 /* ListHeaderView.swift */; };
+		50FD096528C07B3300B36787 /* SeletedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD096428C07B3300B36787 /* SeletedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		50FD095E28BBF99D00B36787 /* HIstoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIstoryRowView.swift; sourceTree = "<group>"; };
 		50FD096028BBFA3400B36787 /* HistoryPizzaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPizzaListView.swift; sourceTree = "<group>"; };
 		50FD096228BC1D5B00B36787 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		50FD096428C07B3300B36787 /* SeletedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeletedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		50FD093A28B8560A00B36787 /* HuliPizza */ = {
 			isa = PBXGroup;
 			children = (
+				50FD096428C07B3300B36787 /* SeletedImageView.swift */,
 				50FD093D28B8560A00B36787 /* ContentView.swift */,
 				50FD095128BB400E00B36787 /* ContentHeaderView.swift */,
 				50FD095A28BB46E700B36787 /* PageTitleView.swift */,
@@ -207,6 +210,7 @@
 				50FD095228BB400E00B36787 /* ContentHeaderView.swift in Sources */,
 				50FD093E28B8560A00B36787 /* ContentView.swift in Sources */,
 				50FD095F28BBF99D00B36787 /* HIstoryRowView.swift in Sources */,
+				50FD096528C07B3300B36787 /* SeletedImageView.swift in Sources */,
 				50FD095028BB374F00B36787 /* MenuListView.swift in Sources */,
 				50FD095D28BBF88300B36787 /* HistoryPizzaView.swift in Sources */,
 				50FD093C28B8560A00B36787 /* HuliPizzaApp.swift in Sources */,
