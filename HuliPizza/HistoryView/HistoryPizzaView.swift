@@ -11,10 +11,10 @@ struct HistoryPizzaView: View {
     var body: some View {
         VStack {
             ContentHeaderView()
-            PageTitleView(title: "Pizza History")
+            PageTitleView(title: "Huli Chicken")
+            SeletedImageView(image: "1_250w")
+                .padding(5)
             HistoryPizzaListView()
-
-            
         }
     }
 }
