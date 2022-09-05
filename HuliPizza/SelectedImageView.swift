@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SeletedImageView: View {
+struct SelectedImageView: View {
     var image: String
     var body: some View {
         Image(image)
@@ -20,6 +20,6 @@ struct SeletedImageView: View {
 
 struct SeletedImageView_Previews: PreviewProvider {
     static var previews: some View {
-        SeletedImageView(image: "1_250w")
+        SelectedImageView(image: "1_250w")
     }
 }
