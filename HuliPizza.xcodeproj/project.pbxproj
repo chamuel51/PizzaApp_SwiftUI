@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50D712F128CADDF500CEA784 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D712F028CADDF500CEA784 /* RootTabView.swift */; };
 		50FD093C28B8560A00B36787 /* HuliPizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD093B28B8560A00B36787 /* HuliPizzaApp.swift */; };
 		50FD093E28B8560A00B36787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD093D28B8560A00B36787 /* ContentView.swift */; };
 		50FD094028B8560C00B36787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FD093F28B8560C00B36787 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50D712F028CADDF500CEA784 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		50FD093828B8560A00B36787 /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FD093B28B8560A00B36787 /* HuliPizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaApp.swift; sourceTree = "<group>"; };
 		50FD093D28B8560A00B36787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		50FD093A28B8560A00B36787 /* HuliPizza */ = {
 			isa = PBXGroup;
 			children = (
+				50D712F028CADDF500CEA784 /* RootTabView.swift */,
 				50FD096228BC1D5B00B36787 /* ListHeaderView.swift */,
 				50FD096428C07B3300B36787 /* SelectedImageView.swift */,
 				50FD093D28B8560A00B36787 /* ContentView.swift */,
@@ -226,6 +229,7 @@
 				50FD095228BB400E00B36787 /* ContentHeaderView.swift in Sources */,
 				50FD093E28B8560A00B36787 /* ContentView.swift in Sources */,
 				50FD095F28BBF99D00B36787 /* HistoryRowView.swift in Sources */,
+				50D712F128CADDF500CEA784 /* RootTabView.swift in Sources */,
 				50FD096F28C85BE100B36787 /* HistoryDetailView.swift in Sources */,
 				50FD096528C07B3300B36787 /* SelectedImageView.swift in Sources */,
 				50FD095028BB374F00B36787 /* MenuListView.swift in Sources */,
